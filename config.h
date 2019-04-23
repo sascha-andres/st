@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mono:pixelsize=16:antialias=true:autohint=true";
+static char *font = "FuraCode Nerd Font Mono:pixelsize=16:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -86,27 +86,50 @@ unsigned int tabspaces = 8;
 unsigned int alpha = 0xed;
 
 static const char *colorname[] = {
-	"#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
-	"#cc241d",
-	"#98971a",
-	"#d79921",
-	"#458588",
-	"#b16286",
-	"#689d6a",
-	"#a89984",
-	"#928374",
-	"#fb4934",
-	"#b8bb26",
-	"#fabd2f",
-	"#83a598",
-	"#d3869b",
-	"#8ec07c",
-	"#ebdbb2",
+	"#232423", /* hard contrast: #1d2021 / soft contrast: #32302f */
+	"#ba2922",
+	"#7e807e",
+	"#4c4f4d",
+	"#16a085",
+	"#43746a",
+	"#00cccc",
+	"#e0e0e0",
+	"#282928",
+	"#cc372c",
+	"#8d8f8d",
+	"#4e524f",
+	"#13bf9d",
+	"#487d72",
+	"#00d1d1",
+	"#e8e8e8",
 	[255] = 0,
 	/* more colors can be added after 255 to use with DefaultXX */
 	"black",   /* 256 -> bg */
 	"white",   /* 257 -> fg */
 };
+
+//static const char *colorname[] = {
+//	"#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
+//	"#cc241d",
+//	"#98971a",
+//	"#d79921",
+//	"#458588",
+//	"#b16286",
+//	"#689d6a",
+//	"#a89984",
+//	"#928374",
+//	"#fb4934",
+//	"#b8bb26",
+//	"#fabd2f",
+//	"#83a598",
+//	"#d3869b",
+//	"#8ec07c",
+//	"#ebdbb2",
+//	[255] = 0,
+//	/* more colors can be added after 255 to use with DefaultXX */
+//	"black",   /* 256 -> bg */
+//	"white",   /* 257 -> fg */
+//};
 
 
 /*
